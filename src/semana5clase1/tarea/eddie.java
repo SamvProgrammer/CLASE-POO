@@ -9,7 +9,7 @@ package semana5clase1.tarea;
  *
  * @author samv
  */
-public class eddie {
+public class eddie {//Si se puede versionar mi repositorio
     public static int factorial(int num){
         return (num==0 || num==1) ? 1 : num*factorial(num-1);
     }
@@ -32,18 +32,18 @@ public class eddie {
         
         System.out.println(Math.pow(2,1));
         
-//        
-//          System.out.println(potencia(2,1));
-//        
-//        System.out.println("Potecnia con la clase Math");
-//        
-//        System.out.println(Math.pow(2,1));
-//        
-//        
-//          System.out.println(potencia(2,0));
-//        
-//        System.out.println("Potecnia con la clase Math");
-//        
-//        System.out.println(Math.pow(2,0));
+        
+          System.out.println(potencia(2,1));
+        
+        System.out.println("Potecnia con la clase Math");
+        
+        System.out.println(Math.pow(2,1));
+        
+        
+          System.out.println(potencia(2,0));
+        
+        System.out.println("Potecnia con la clase Math");
+        
+        System.out.println(Math.pow(2,0));
     }
 }
