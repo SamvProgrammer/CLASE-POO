@@ -15,7 +15,7 @@ public class jorge {//b = 2    p = 0
     private static int elevado (int b,int p){
 		if(p==0) {//3  .. 2 .. 1 ... 0
 			return 1;
-		}
+		}//Eddi:  se psuede simplicar tu if con un operador termnario
 		else {
 			return b*elevado(b,p-1);
 		}
